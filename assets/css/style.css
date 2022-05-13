@@ -1,0 +1,170 @@
+:root{
+    --pink:#F4DAE6;
+    --green:#B7E9E1;
+    --darkpink:#EDC8D3;
+    --yellow:#EEE1B5;
+    --purple:#E3C7EF;
+    --darkgreen:#BBE4E3;
+    --applegreen:#C6F0CD;
+    --darkapplegreen: rgb(88, 140, 97);
+    --darkpeach: #de7b98;
+    --bgred:#f2c7b96b;
+    --bggray: #ceccc67e;
+    --bggreen: #a0d4ab6c;
+}
+
+
+
+.pink {
+    background-color: var(--pink);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.dark-pink {
+    background-color: var(--darkpink);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.dark-green {
+    background-color: var(--darkgreen);
+}
+
+.apple-green {
+    background-color: var(--applegreen);
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Freehand', 'cursive'; */
+}
+
+.note-block{
+    width: 40vw;
+    height: 90vh;
+    /* border: 1px solid black; */
+    background-image: url("../images/White\ Art\ Paper\ Background\ Premium\ Vector.jpg");
+    object-fit:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+}
+.tape{
+    width: 200px;
+    position: absolute;
+    top: -30px;
+    /* transform: rotate(180deg); */
+}
+.note-block h1,h2{
+    font-family: 'Freehand', 'cursive';
+}
+.date-block{
+    display: flex;
+    align-items: center;
+}
+
+.date-block input{
+    border: none;
+    width: 50px;
+    background-color: transparent;
+    text-align: center;
+}
+.date-block input{
+    border: none;
+    background-color: transparent;
+}
+.schudle-form{
+    width: 90%;
+}
+.input-group-text{
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 0;
+    font-size: x-large;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Freehand', 'cursive';
+}
+.form-control{
+    border: 1px solid transparent;
+}
+.form-control:focus {
+    border: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+.each-time-block input{
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+.each-time-block button{
+    background-color: transparent;
+    outline: 0;
+    border: none;
+}
+
+.each-time-block button:hover{
+    background-color: transparent;
+}
+
+.each-time-block button:hover svg{
+    stroke: var(--darkapplegreen);
+}
+.each-time-block svg{
+    width: 30px;
+    height: 30px;
+}
+
+.btn-frame button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: var(--yellow);
+    border-radius: 5px;
+    margin: 10px 10px 0 10px;
+}
+.btn-frame button:hover{
+    background-color: var(--darkgreen);
+}
+.btn-frame button:focus{
+    outline: 0;
+}
+
+.save-notice{
+    color: var(--darkpeach);
+}
+
+
+
+.form-control.pastTime{
+    background-color: var(--bggray);
+}
+
+.form-control.currentTime {
+    background-color: var(--bgred);
+}
+
+.form-control.futureTime {
+    background-color: var(--bggreen);
+}

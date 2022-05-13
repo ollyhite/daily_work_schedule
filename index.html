@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Freehand&family=Roboto:wght@100&family=Ubuntu:wght@300&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Daily Scheduler</title>
+</head>
+<body>
+    <div class="note-block">
+        <img class="tape" src="./assets/images/toppng.com-masking-tape-transparent-background-tape-transparent-758x224.png" alt="">
+        <h1>Work Day Scheduler</h1>
+        <div class="date-block">
+            <h2>Date</h2>
+            <input type="text" id="month">/
+            <input type="text" id="day">/
+            <input type="text" id="year">
+        </div>
+        <p class="save-notice">Save Scheduler Successe✔️</p>
+        <div class="schudle-form" id="schudle_form">
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text dark-pink" id="title-09">9am</span>
+                <input type="text" class="form-control" id="input-09" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-09">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44" height="44"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                    <circle cx="12" cy="14" r="2" />
+                    <polyline points="14 4 14 8 8 8 8 4" />
+                </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text yellow" id="title-10">10am</span>
+                <input type="text" class="form-control" id="input-10" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-10">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text green" id="title-11">11am</span>
+                <input type="text" class="form-control" id="input-11" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-11">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text purple" id="title-12">12pm</span>
+                <input type="text" class="form-control" id="input-12" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-12">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text pink" id="title-13">1pm</span>
+                <input type="text" class="form-control" id="input-13" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-13">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text dark-green" id="title-14">2pm</span>
+                <input type="text" class="form-control" id="input-14" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-14">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44" height="44"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text yellow" id="title-15">3pm</span>
+                <input type="text" class="form-control" id="input-15" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-15">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text dark-pink" id="title-16">4pm</span>
+                <input type="text" class="form-control" id="input-16" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-16">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="each-time-block input-group input-group-lg mb-3">
+                <span class="input-group-text purple" id="title-17">5pm</span>
+                <input type="text" class="form-control" id="input-17" placeholder="" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="" type="button" id="btn-17">
+                    <!-- <img src="./assets/icons/save.svg" alt=""> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
+                        <circle cx="12" cy="14" r="2" />
+                        <polyline points="14 4 14 8 8 8 8 4" />
+                    </svg>
+                </button>
+            </div>
+            
+        </div>
+        <div class="btn-frame">
+            <button id="download">Save</button>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
