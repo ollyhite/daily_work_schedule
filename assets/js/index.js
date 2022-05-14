@@ -46,68 +46,105 @@ function showNotice(){
 $("#btn-09").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-09",inputVal)
-    showNotice();
+    // if(inputVal){
+        localStorage.setItem("hour-09",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 })
 $("#btn-10").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-10",inputVal)
-    showNotice();
+    // if(inputVal){
+        localStorage.setItem("hour-10",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 
 
 })
 $("#btn-11").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-11",inputVal)
-    showNotice();
+    // if(inputVal){
+        localStorage.setItem("hour-11",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 
 })
 $("#btn-12").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-12",inputVal)
-    showNotice();
-
+    // if(inputVal){
+        localStorage.setItem("hour-12",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 
 })
 $("#btn-13").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-13",inputVal)
-    showNotice();
-
+    // if(inputVal){
+        localStorage.setItem("hour-13",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 })
 $("#btn-14").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-14",inputVal)
-    showNotice();
-
+    // if(inputVal){
+        localStorage.setItem("hour-14",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 
 })
 $("#btn-15").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-15",inputVal)
     showNotice();
-
+    // if(inputVal){
+        localStorage.setItem("hour-15",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 })
 $("#btn-16").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-16",inputVal)
-    showNotice();
+    // if(inputVal){
+        localStorage.setItem("hour-16",inputVal)
+        showNotice();
+    // }else{
+    //     emptyVal();
+    // }
 
 })
 $("#btn-17").click(function(){
     var inputVal=$(this).siblings('input').val();
     console.log(inputVal);
-    localStorage.setItem("hour-17",inputVal)
-    showNotice();
+    if(inputVal){
+        localStorage.setItem("hour-17",inputVal)
+        showNotice();
+    }else{
+        emptyVal();
+    }
 
 })
+
+function emptyVal(){
+        alert("You need to put some schedule in it!")
+}
 
 $("#clear").click(function(){
     localStorage.clear();
