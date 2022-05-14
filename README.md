@@ -7,7 +7,7 @@ https://ollyhite.github.io/daily_work_schedule/
 ## Installation
 
 ```
-git clone git@github.com:ollyhite/daily_work_schedule.git
+git clone https://github.com/ollyhite/daily_work_schedule.git
 ```
 
 ## Built With
